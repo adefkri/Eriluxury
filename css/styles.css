@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-border { 
+    width: 1200px;
+    margin: 0 auto;  
+}
+
+nav.logo {
+    position: absolute;
+    left: 200px;
+    
+}
+
+  
+
+.nav-container {
+    background-color:blanchedalmond;
+    box-shadow: 0px 8px 24px black;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height: 72px;
+    /*margin-top: -20px;------ to hide the search box
+    z-index: 500;
+    position: relative;
+*/
+}
+
+nav ul {
+    display: flex;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .container{
+    width:auto;
+    float: left;
+    background: #D9D9D9 url("/img/backgrSector.png"); 
+    background-repeat:repeat;
+}
+
+.nav-item  li a {
+    color: #000000;
+    font-family: "poppins",sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+     }
+
+     .nav-item li {
+        list-style: none;
+        margin-right: 100px;
+        list-style: none;
+        margin-right: 100px;
+        font-family:Arial, Helvetica, sans-serif;
+        text-decoration: none;
+       } 
+
+
+section, article {
+    height: 350px;
+    box-shadow: 2px, 4px, #00000013;
+    
+}
+  h1 {
+    position: absolute;
+    width: 688px;
+    height: 93px;
+    left: 100px;
+    top: 139px;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 77px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+
+    }
+
+    p {
+        position: absolute;
+        width: 688px;
+        height: 120px;
+        left: 60px;
+        top: 257px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 25px;
+        display: flex;
+       align-items: center;
+        color: #000000;
+        margin-bottom: 24px;
+    } 
+  
+    #aside-logo-pg{
+        float: right;
+        background-image: url("/img/photoBg.png");
+        background-repeat: no-repeat;
+         background-position: right;
+         background-size: contain;
+    }
+    
+    #morebtn {
+        position: absolute;
+        top: 650px;
+        left: 450px;
+        }
+
+        #aside-logo-pg {
+            width: 40%;
+            }
+
+            #article-column-sec{
+             width: 60%;
+            }
+   
+             
+        a {
+            text-decoration: none;
+            
+        }
+        
+        a:visited {
+            color: purple;
+        }
+         
+        a:hover {
+            border: 0.5px solid blue;
+            padding: 10px;
+            background-color: lightgray;
+        }
+    
+.clearfix {
+    clear: both;
+}
+
+.footer {
+ background-color:blanchedalmond;
+ top: 1128;
+ height: 72px;
+
+}
+.about,.contact,.more{
+    width: 1200px;
+    margin: 0 auto; 
+    height: 600px; 
+}
+h2{ 
+    background-color:rosybrown;
+     font-family: 'Allura', cursive;
+     height: 60px;
+   text-align:center;
+clear: both;
+text-align: center;
+}
+/*.column1,.column2,.column3{ === this is changed to hero image
+    display: flex;
+    float: left;
+    width: 33.33%;
+    border: 1px solid #000000;
+    padding: 13px;
+    height: 350px;
+    text-align: center;}*/
+
+.column4,.column5,.column6 {
+    display: flex;
+    float: left;
+    width: 33.33%;
+    height: 50%;
+    border: 1px solid #000000;
+}
+
+.column7,.column8,.column9 {
+    display: flex;
+    float: left;
+    width: 33.33%;
+    height: 50%;
+    border: 1px solid #000000;
+   
+}
+.more {
+    background-image: url("/img/eriring.png");
+}
+
+/*==========this is for our contact page===========*/
+label,input,button,textarea {
+    margin: 10px;
+    display: block;
+    text-align: left;
+    font-family: 'Gill Sans',  sans-serif;
+    
+}
+
+input,textarea{
+    width: 80%;
+    
+}
+
+
+.contact-form {
+    background-color:azure;
+    height: 300px;
+    width:500px;
+    border: solid blue 0.25px;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+
+.form-row{
+    margin-bottom: 15px;
+}
+
+textarea {
+    height: 120px;
+    width:80%;
+    
+}
+.Row {
+   float: right;
+   margin-bottom: 50px;
+ 
+}     
+        
+ .connect{
+    background-image: url("/img/er-Heroimg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height:550px;
+     width: 100%;
+     margin-bottom: 10px;
+     
+ }      
+   .goggle{
+    float: left;
+    margin-bottom: 50px;
+   }
+    /*========================here is  I will put about us */
+
+
+
+
+/*.search-box {----part of seach box property
+    width: 1200px;
+    margin: 0 auto; 
+    text-align: right;
+    position: relative;
+    top: 0;
+    transition-duration: 300ms;
+    } 
+
+    .search-box.active {
+        top:72px
+    } 
+    .search-box input  {
+    background-color:#b3b3b3;
+    font-size: 24;
+    }
+
+   .nav-btn-con {
+    display: flex;
+    position: relative;
+   }
+
+   .nav-btn-con .close-btn {
+    opacity: 0;
+    pointer-events: none;
+    transform:translateY(-8px);
+    transition: 300ms;
+   }
+   .search-btn {
+    position: absolute;
+   }*/
+/*============i will add video on about us
+.row {
+    width: 100%;
+}
+
+.col {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    float: left;
+}
+.clearfix {
+    clear: left;
+}
+#about-text {
+    padding-top: 120px;
+}
