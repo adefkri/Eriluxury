@@ -66,6 +66,12 @@ section, article {
     box-shadow: 2px, 4px, #00000013;
     
 }
+
+main {
+    height: 1056px;
+    background: #D9D9D9 url("/img/backgrSector.png");
+    background-color:#D9D9D9 ;
+}
   h1 {
     position: absolute;
     width: 688px;
@@ -105,6 +111,7 @@ section, article {
         background-repeat: no-repeat;
          background-position: right;
          background-size: contain;
+         margin-top: 72px;
     }
     
     #morebtn {
@@ -143,8 +150,7 @@ section, article {
 
 .footer {
  background-color:blanchedalmond;
- top: 1128;
- height: 72px;
+  height: 72px;
 
 }
 .about,.contact,.more{
@@ -187,9 +193,7 @@ h2{
     border: 1px solid #000000;
    
 }
-.more {
-    background-image: url("/img/eriring.png");
-}
+
 
 /*==========this is for our contact page===========*/
 label,input,button,textarea {
@@ -227,7 +231,8 @@ textarea {
 }
 .Row {
    float: right;
-   margin-bottom: 50px;
+  
+   
  
 }     
         
@@ -240,13 +245,13 @@ textarea {
     height:550px;
      width: 100%;
      margin-bottom: 10px;
+    
      
  }      
    .goggle{
     float: left;
-    margin-bottom: 50px;
    }
-    /*========================here is  I will put about us */
+    
 
 
 
@@ -283,19 +288,5 @@ textarea {
     position: absolute;
    }*/
 /*============i will add video on about us
-.row {
-    width: 100%;
-}
 
-.col {
-    width: 50%;
-    padding: 20px;
-    text-align: center;
-    float: left;
-}
-.clearfix {
-    clear: left;
-}
-#about-text {
-    padding-top: 120px;
-}
+
