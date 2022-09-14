@@ -17,8 +17,6 @@ nav.logo {
     
 }
 
-  
-
 .nav-container {
     background-color:blanchedalmond;
     box-shadow: 0px 8px 24px black;
@@ -56,8 +54,6 @@ nav{
      }
 
      .nav-item li {
-        list-style: none;
-        margin-right: 100px;
         list-style: none;
         margin-right: 100px;
         font-family:Arial, Helvetica, sans-serif;
