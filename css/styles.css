@@ -151,7 +151,12 @@ main {
 .footer {
  background-color:blanchedalmond;
   height: 72px;
+}
 
+.footer-items {
+    text-align: center;
+   
+    
 }
 .about,.contact,.more{
     width: 1200px;
