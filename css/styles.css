@@ -42,7 +42,7 @@ nav{
  .container{
     width:auto;
     float: left;
-    background: #D9D9D9 url("/img/backgrSector.png"); 
+    background: #D9D9D9 url("../img/backgrSector.png"); 
     background-repeat:repeat;
 }
 
@@ -69,7 +69,7 @@ section, article {
 
 main {
     height: 1056px;
-    background: #D9D9D9 url("/img/backgrSector.png");
+    background: #D9D9D9 url("../img/backgrSector.png");
     background-color:#D9D9D9 ;
 }
   h1 {
@@ -107,7 +107,7 @@ main {
   
     #aside-logo-pg{
         float: right;
-        background-image: url("/img/photoBg.png");
+        background-image: url("../img/photoBg.png");
         background-repeat: no-repeat;
          background-position: right;
          background-size: contain;
@@ -242,7 +242,7 @@ textarea {
 }     
         
  .connect{
-    background-image: url("/img/er-Heroimg.jpg");
+    background-image: url("../img/er-Heroimg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
